@@ -67,6 +67,18 @@
     <div class="max-w-4xl mx-auto w-full">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
 
+            <div onclick="scrollToSection('story-mina')"
+                 class="w-full bg-white rounded-2xl overflow-hidden shadow-xs hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 cursor-pointer border border-slate-200/60 group">
+                <img src="images/mina2.jpg" alt="Mina Saidze"
+                     class="w-full h-[400px] object-cover object-top group-hover:scale-105 transition-transform duration-300">
+                <div class="p-6">
+                    <span class="text-xs font-bold text-brand-dark uppercase">Data Scientist & Founder of Inclusive Tech</span>
+                    <h3 class="text-xl font-bold text-slate-950 mt-1">Mina Saidze</h3>
+                </div>
+
+
+            </div>
+
             <div onclick="scrollToSection('story-athene')"
                  class="w-full bg-white rounded-2xl overflow-hidden shadow-xs hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 cursor-pointer border border-slate-200/60 group">
                 <img src="images/855C7589-4E0C-4E58-8AEA-B4E7484D2A75_4_5005_c_upscayl_2x_upscayl-standard-4x.png"
@@ -108,7 +120,81 @@
                 </div>
             </div>
 
+
         </div>
+    </div>
+</section>
+
+<section id="story-mina"
+         class="min-h-screen bg-white py-20 px-6 flex flex-col justify-center border-b border-slate-100">
+    <div class="max-w-5xl mx-auto w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+
+        <!-- Left Column: Bio & Image -->
+        <div class="md:col-span-4 text-center md:text-left">
+            <!-- Не забудь додати її фото в папку images під назвою mina-saidze.jpg -->
+            <img src="images/mina2.jpg" alt="Mina Saidze"
+                 class="w-full h-[450px] object-cover object-top rounded-2xl mx-auto mb-4 shadow-md">
+            <h2 class="text-2xl font-black text-slate-950">Mina Saidze</h2>
+            <p class="text-brand-dark font-semibold text-sm uppercase tracking-wider mb-4">Data Scientist & Founder</p>
+            <p class="text-sm text-slate-600 leading-relaxed">
+                Mina Saidze is a Data Scientist, best-selling author of 'Fair Tech', and founder of Inclusive Tech.
+                Recognized as a Forbes 30 Under 30 and LinkedIn Top Voice, she is one of Germany's leading AI thought
+                leaders.
+            </p>
+        </div>
+
+        <!-- Right Column: Approved Narrative & Links -->
+        <div class="md:col-span-8">
+            <h4 class="text-xs font-bold tracking-widest text-brand-dark uppercase mb-4">Her Story & Blueprint</h4>
+
+            <!-- Styled Text Block (matching the other profiles) -->
+            <div class="bg-brand/5 p-8 rounded-2xl text-slate-800 leading-relaxed space-y-4 font-serif text-lg border border-brand-dark/10">
+                <p>As the daughter of political activists from Afghanistan, she learned early on what it means to fight
+                    for equality and social justice.</p>
+                <p>Entering the AI and Big Data sectors from a non-traditional background, she proved that fresh
+                    perspectives are one's strongest asset. This drive led her to found Europe's first initiative for
+                    diversity in tech and AI ethics. Today, she is widely recognized as one of Germany's leading AI
+                    thought leaders.</p>
+                <p>For young women entering STEM, she offers a highly practical blueprint for success: <strong>Own Your
+                    Uniqueness, Trade Fear for Curiosity, Build Your Alliance, Treat Coding Like a Language, and Find
+                    Your "Why"</strong>.</p>
+            </div>
+
+            <!-- External Interview Links -->
+            <div class="mt-8">
+                <h4 class="text-xs font-bold tracking-widest text-slate-500 uppercase mb-3">Read her full
+                    interviews:</h4>
+                <div class="flex flex-wrap gap-3">
+                    <a href="https://grace-accelerator.de/blog-reader/mina-saidze-interview.html" target="_blank"
+                       class="inline-flex items-center px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-semibold text-brand-dark hover:border-brand-dark hover:shadow-sm transition-all">
+                        English Interview ↗
+                    </a>
+                    <a href="https://www.manager-magazin.de/unternehmen/mina-saidze-man-muss-nicht-immer-ins-bild-passen-um-seinen-weg-zu-gehen-a-8ed66110-d718-4d34-b498-2ffaf98ea13f"
+                       target="_blank"
+                       class="inline-flex items-center px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-semibold text-slate-600 hover:border-slate-400 hover:shadow-sm transition-all">
+                        Manager Magazin ↗
+                    </a>
+                    <a href="https://www.businessinsider.de/karriere/quereinsteiger-it-mina-saidze-ueber-inklusion-in-der-tech-branche/"
+                       target="_blank"
+                       class="inline-flex items-center px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-semibold text-slate-600 hover:border-slate-400 hover:shadow-sm transition-all">
+                        Business Insider ↗
+                    </a>
+
+                    <a href="https://t3n.de/news/diversity-digitalisierung-kind-1283860/"
+                       target="_blank"
+                       class="inline-flex items-center px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-semibold text-slate-600 hover:border-slate-400 hover:shadow-sm transition-all">
+                        t3n ↗
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="w-full pt-12 text-center">
+        <button onclick="scrollToSection('catalog')"
+                class="inline-flex items-center text-xs font-semibold text-slate-500 hover:text-brand-dark transition-colors cursor-pointer">
+            ↑ Back to Catalog
+        </button>
     </div>
 </section>
 
